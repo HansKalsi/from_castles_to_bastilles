@@ -1,0 +1,108 @@
+#### Local Types ####
+@musketeers = "gfx/interface/icons/culture_innovations/innovation_guns.png"
+@gunpowder_prominence = "gfx/interface/icons/culture_innovations/innovation_gunpowder_prominence.png"
+@waterwheel = "gfx/interface/icons/culture_innovations/innovation_waterwheel.png"
+@hussars = "gfx/interface/icons/culture_innovations/innovation_hussars.png"
+@ancient_art = "gfx/interface/icons/culture_innovations/innovation_ancient_art.png"
+@winged_hussars_maa = "gfx/interface/icons/culture_innovations/innovation_winged_hussars.png"
+@printing_press = "gfx/interface/icons/culture_innovations/innovation_printing_press.png"
+
+#culture_group_military
+innovation_matchlock_muskets = {
+	group = culture_group_military
+	culture_era = culture_era_the_renaissance
+	icon = @musketeers
+
+	unlock_maa = arquebusiers
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+innovation_hussars = {
+	group = culture_group_military
+	culture_era = culture_era_the_renaissance
+	icon = @hussars
+
+	unlock_maa = hussars
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+#culture_group_civic
+innovation_horizontal_waterwheel = {
+	group = culture_group_civic
+	culture_era = culture_era_the_renaissance
+	icon = @waterwheel
+
+	county_modifier = {
+		building_slot_add = 1
+	}
+
+    character_modifier = {
+        development_growth_factor = 0.25
+    }
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+innovation_printing_press = {
+	group = culture_group_civic
+	culture_era = culture_era_the_renaissance
+	icon = @printing_press
+
+	custom = fabricate_claim_speed
+
+	character_modifier = {
+		same_culture_opinion = 20
+		title_creation_cost_mult = -0.2
+    }
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+innovation_gunpowder_prominence = {
+	group = culture_group_civic
+	culture_era = culture_era_the_renaissance
+	icon = @gunpowder_prominence
+
+	character_modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 6
+	}
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+innovation_ancient_art = {
+	group = culture_group_civic
+	culture_era = culture_era_the_renaissance
+	icon = @ancient_art
+
+	custom = promote_culture_speed
+	custom = more_glory_hounds
+
+    character_modifier = {
+		different_culture_opinion = 10
+    }
+
+	flag = global_regular
+	flag = the_renaissance_era_regular
+}
+
+#culture_group_regional
+innovation_winged_hussars = {
+    group = culture_group_regional
+    culture_era = culture_era_the_renaissance
+	region = ghw_region_poland
+    icon = @winged_hussars_maa
+
+	unlock_maa = winged_hussars
+
+	flag = global_regional
+	flag = the_renaissance_era_regional
+}

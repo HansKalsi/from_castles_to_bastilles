@@ -1,0 +1,68 @@
+@high_maint_mult = 3 # default high_maint_mult from 00_men_at_arms_values.txt
+
+@winged_hussars_recruitment_cost = 420
+@winged_hussars_low_maint_cost = 1.1
+@winged_hussars_high_maint_cost = @[winged_hussars_low_maint_cost * high_maint_mult]
+winged_hussars_recruitment_cost = @[winged_hussars_recruitment_cost]
+winged_hussars_low_maint_cost = @[winged_hussars_low_maint_cost]
+winged_hussars_high_maint_cost = @[winged_hussars_high_maint_cost]
+
+@hussars_recruitment_cost = 165
+@hussars_low_maint_cost = 0.45
+@hussars_high_maint_cost = @[hussars_low_maint_cost * high_maint_mult]
+hussars_recruitment_cost = @[hussars_recruitment_cost]
+hussars_low_maint_cost = @[hussars_low_maint_cost]
+hussars_high_maint_cost = @[hussars_high_maint_cost]
+
+@arquebusiers_recruitment_cost = 100
+@arquebusiers_low_maint_cost = 0.35
+@arquebusiers_high_maint_cost = @[arquebusiers_low_maint_cost * high_maint_mult]
+arquebusiers_recruitment_cost = @[arquebusiers_recruitment_cost]
+arquebusiers_low_maint_cost = @[arquebusiers_low_maint_cost]
+arquebusiers_high_maint_cost = @[arquebusiers_high_maint_cost]
+
+howitzer_recruitment_cost = 150
+howitzer_low_maint_cost = 0.5
+howitzer_high_maint_cost = 0.5 * 3
+
+@cossacks_recruitment_cost = 200
+@cossacks_low_maint_cost = 0.5
+@cossacks_high_maint_cost = @[cossacks_low_maint_cost * high_maint_mult]
+cossacks_recruitment_cost = @[cossacks_recruitment_cost]
+cossacks_low_maint_cost = @[cossacks_low_maint_cost]
+cossacks_high_maint_cost = @[cossacks_high_maint_cost]
+
+@red_coats_recruitment_cost = 200
+@red_coats_low_maint_cost = 0.45
+@red_coats_high_maint_cost = @[red_coats_low_maint_cost * high_maint_mult]
+red_coats_recruitment_cost = @[red_coats_recruitment_cost]
+red_coats_low_maint_cost = @[red_coats_low_maint_cost]
+red_coats_high_maint_cost = @[red_coats_high_maint_cost]
+
+@jagers_recruitment_cost = 180
+@jagers_low_maint_cost = 0.45
+@jagers_high_maint_cost = @[jagers_low_maint_cost * high_maint_mult]
+jagers_recruitment_cost = @[jagers_recruitment_cost]
+jagers_low_maint_cost = @[jagers_low_maint_cost]
+jagers_high_maint_cost = @[jagers_high_maint_cost]
+
+@revolutionary_infantry_recruitment_cost = 220
+@revolutionary_infantry_low_maint_cost = 0.45
+@revolutionary_infantry_high_maint_cost = @[revolutionary_infantry_low_maint_cost * high_maint_mult]
+revolutionary_infantry_recruitment_cost = @[revolutionary_infantry_recruitment_cost]
+revolutionary_infantry_low_maint_cost = @[revolutionary_infantry_low_maint_cost]
+revolutionary_infantry_high_maint_cost = @[revolutionary_infantry_high_maint_cost]
+
+@dragoon_recruitment_cost = 185
+@dragoon_low_maint_cost = 0.45
+@dragoon_high_maint_cost = @[dragoon_low_maint_cost * high_maint_mult]
+dragoon_recruitment_cost = @[dragoon_recruitment_cost]
+dragoon_low_maint_cost = @[dragoon_low_maint_cost]
+dragoon_high_maint_cost = @[dragoon_high_maint_cost]
+
+@musketeers_recruitment_cost = 100
+@musketeers_low_maint_cost = 0.25
+@musketeers_high_maint_cost = @[musketeers_low_maint_cost * high_maint_mult]
+musketeers_recruitment_cost = @[musketeers_recruitment_cost]
+musketeers_low_maint_cost = @[musketeers_low_maint_cost]
+musketeers_high_maint_cost = @[musketeers_high_maint_cost]

@@ -1,0 +1,94 @@
+bm_1799_start = {
+	start_date = 1799.11.9
+	is_playable = yes
+	group = bm_group_1799
+
+	weight = {
+		value = 0
+	}
+
+    # Napolean Bonaparte (France) ID: 1000000
+	character = {
+		name = "bookmark_1799_napolean_bonaparte"
+		dynasty = 1100000
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1769.8.15
+		title = e_france
+		government = feudal_government
+		culture = french
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1000000 # update
+		position = { 700 620 }
+		animation = map_rage
+	}
+
+	# Pavel Romanov (Russia) ID: 2000000
+	character = {
+		name = "bookmark_1799_pavel_romanov"
+		dynasty = 2100000
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1754.10.1
+		title = e_russia
+		government = feudal_government
+		culture = russian
+		religion = orthodox
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 2000000
+		position = { 560 320 }
+		animation = disapproval
+	}
+
+	# George Hanover ID: 3000000
+	character = {
+		name = "bookmark_1799_george_hanover"
+		dynasty = 3100000
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1738.6.4
+		title = e_britannia
+		government = feudal_government
+		culture = english
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 3000000
+		position = { 1080 660 }
+		animation = personality_bold
+	}
+
+	# Friedrich Wilhelm Hohenzollern (Prussia) ID: 4000000
+	character = {
+		name = "bookmark_1799_friedrich_wilhelm_hohenzollern"
+		dynasty = 4100000
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1770.8.3
+		title = k_east_francia
+		government = feudal_government
+		culture = prussian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 4000000
+		position = { 1020 150 }
+		animation = personality_cynical
+	}
+
+	# Franz Habsburg ID: 5000000
+	character = {
+		name = "bookmark_1799_franz_habsburg"
+		dynasty = 5100000
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1768.2.12
+		title = e_hre
+		government = feudal_government
+		culture = bavarian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 5000000
+		position = { 340 800 }
+		animation = map_dismissal
+	}
+}

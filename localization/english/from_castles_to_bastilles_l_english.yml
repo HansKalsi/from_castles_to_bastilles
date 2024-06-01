@@ -1,0 +1,104 @@
+﻿l_english:
+ # The Renaissance
+  culture_era_the_renaissance:0 "The Renaissance"
+  culture_era_the_renaissance_desc:0 "The Renaissance was a period of great cultural change and achievement that began in Italy during the 14th century and spread throughout Europe. It was a time of rebirth, when the arts, sciences, and philosophy flourished. The Renaissance was also a time of great political and social change, as the power of the Catholic Church declined and the power of the monarchs and nobles increased. The Renaissance was a time of great creativity and innovation, and it laid the foundation for the modern world."
+
+  # Military Innovations
+  innovation_matchlock_muskets:0 "Matchlock Muskets"
+  innovation_matchlock_muskets_desc:0 "Matchlock muskets were the first firearms to be widely used in Europe. They were simple to operate and could be fired by a single soldier, making them ideal for use in massed formations. Matchlock muskets were slow to reload, but they were powerful and accurate weapons that could be used to devastating effect on the battlefield."
+  arquebusiers:0 "Arquebusiers"
+  arquebusiers_flavor:0 "Arquebusiers were a type of infantry unit that was used by European armies during the Renaissance. They were armed with arquebuses, which were early firearms that were fired by a matchlock mechanism. Arquebusiers were highly effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_hussars:0 "Serbain Exiles"
+  innovation_hussars_desc:0 "The Serbian Exiles were a group of Serbian soldiers who fled their homeland after the Ottoman conquest of Serbia in the late 14th century. They were skilled horsemen and warriors, and they were highly valued as mercenaries by the rulers of Europe. The Serbian Exiles were known for their bravery and ferocity in battle, and they played a key role in many of the great military campaigns of the Renaissance."
+  hussars:0 "Hussars"
+  hussars_flavor:0 "Hussars were a type of cavalry unit that was used by European armies during the Renaissance. They were highly skilled horsemen and warriors, and they were known for their speed, agility, and ferocity in battle. Hussars played a key role in many of the great military campaigns of the time, and they were feared and respected by their enemies."
+
+  # Civic Innovations
+  innovation_horizontal_waterwheel:0 "Horizontal Waterwheel"
+  innovation_horizontal_waterwheel_desc:0 "The horizontal waterwheel was a type of waterwheel that was used to power machinery in Europe during the Renaissance. It was a simple and efficient device that could be used to grind grain, saw wood, and perform other tasks. The horizontal waterwheel was an important innovation that helped to increase the productivity of European industry and agriculture."
+  innovation_printing_press:0 "Printing Press"
+  innovation_printing_press_desc:0 "The printing press was a revolutionary invention that was developed in Europe during the Renaissance. It allowed books, pamphlets, and other printed materials to be produced quickly and cheaply, making them more widely available to the public. The printing press was a key factor in the spread of knowledge and ideas during the Renaissance, and it played a crucial role in the development of modern society."
+  innovation_gunpowder_prominence:0 "Gunpowder Prominence"
+  innovation_gunpowder_prominence_desc:0 "Gunpowder was a key factor in the military innovations of the Renaissance. It was used to power cannons, muskets, and other firearms, making them more powerful and effective weapons. Gunpowder was also used to create explosive devices, such as grenades and mines, that could be used to destroy fortifications and other targets. The use of gunpowder in warfare revolutionized the way that battles were fought, and it played a key role in the rise of the modern state."
+  innovation_ancient_art:0 "Ancient Art"
+  innovation_ancient_art_desc:0 "The art of the ancient world was a key source of inspiration for the artists and architects of the Renaissance. They studied the works of the Greeks and Romans, and they sought to emulate their style and techniques. The art of the ancient world was characterized by its realism, its attention to detail, and its focus on the human form. The artists of the Renaissance sought to capture these qualities in their own work, and they created some of the greatest masterpieces of Western art."
+
+  # Regional Innovations
+  innovation_winged_hussars:0 "Winged Hussars"
+  innovation_winged_hussars_desc:0 "The Winged Hussars were a type of cavalry unit that was used by the Polish-Lithuanian Commonwealth during the Renaissance. They were known for their distinctive armor, which included large wings that were attached to their backs. The Winged Hussars were highly skilled horsemen and warriors, and they were feared and respected by their enemies. They played a key role in many of the great military campaigns of the Renaissance, and they were instrumental in the defense of Poland-Lithuania against the Ottoman Empire."
+  winged_hussars:0 "Winged Hussars"
+  winged_hussars_flavor:0 "The Winged Hussars were a type of cavalry unit that was used by the Polish-Lithuanian Commonwealth during the Renaissance. They were known for their distinctive armor, which included large wings that were attached to their backs. The Winged Hussars were highly skilled horsemen and warriors, and they were feared and respected by their enemies."
+
+  # Revolutionary Era
+  culture_era_revolutionary_era:0 "Revolutionary Era"
+  culture_era_revolutionary_era_desc:0 "The Revolutionary Era was a period of great political and social change that began in the late 18th century and continued into the early 19th century. It was a time of revolution, when the people of Europe rose up against their rulers and demanded greater political and social rights. The Revolutionary Era was a time of great upheaval and conflict, as the old order was overthrown and a new order was established. The Revolutionary Era was a time of great change and transformation, and it laid the foundation for the modern world."
+
+  # Military Innovations
+  innovation_flintlock_muskets:0 "Flintlock Muskets"
+  innovation_flintlock_muskets_desc:0 "Flintlock muskets were an improved version of the matchlock muskets that were used in Europe during the Renaissance. They were faster to reload and more reliable than matchlock muskets, making them more effective weapons on the battlefield. Flintlock muskets were widely used by European armies during the Revolutionary Era, and they played a key role in many of the great military campaigns of the time."
+  musketeers:0 "Musketeers"
+  musketeers_flavor:0 "Musketeers were a type of infantry unit that was used by European armies during the Revolutionary Era. They were armed with muskets, which were firearms that were fired by a flintlock mechanism. Musketeers were highly effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_the_dragon:0 "The Dragon"
+  innovation_the_dragon_desc:0 "The Dragon was a type of cavalry unit that was used by European armies during the Revolutionary Era. They were mounted infantry soldiers who rode to battle on horseback and dismounted to fight on foot. The Dragon were highly versatile and effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  dragoon:0 "Dragoons"
+  dragoon_flavor:0 "Dragoons were a type of cavalry unit that was used by European armies during the Revolutionary Era. They were mounted infantry soldiers who rode to battle on horseback and dismounted to fight on foot. Dragoons were highly versatile and effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_gribeauval_system:0 "Gribeauval System"
+  innovation_gribeauval_system_desc:0 "The Gribeauval System was a series of reforms to the French artillery that were introduced in the late 18th century. It included improvements to the design and manufacture of cannons, as well as changes to the organization and tactics of the artillery. The Gribeauval System made the French artillery more effective and efficient, and it played a key role in the success of the French army during the Revolutionary Era."
+  howitzer:0 "Howitzers"
+  howitzer_flavor:0 "Howitzers were a type of artillery piece that was used by European armies during the Revolutionary Era. They were short-barreled cannons that fired shells in a high arc, making them ideal for attacking fortifications and other targets that were hidden from view. Howitzers were highly effective weapons, and they played a key role in many of the great military campaigns of the time."
+
+  # Civic Innovations
+  innovation_world_order:0 "World Order"
+  innovation_world_order_desc:0 "The World Order was a series of reforms and innovations that were introduced by Napoleon Bonaparte during his rule of France in the early 19th century. It included changes to the organization and tactics of the French army, as well as the introduction of new weapons and equipment. The World Order made the French army one of the most powerful and effective military forces in Europe, and it played a key role in Napoleon's rise to power and his conquest of much of Europe."
+  innovation_the_guillotine:0 "The Guillotine"
+  innovation_the_guillotine_desc:0 "The guillotine was a device that was used for carrying out executions in France during the Revolutionary Era. It was a simple and efficient machine that could be used to quickly and cleanly behead a person. The guillotine was used to execute thousands of people during the Reign of Terror, and it became a symbol of the brutality and violence of the French Revolution."
+  innovation_line_infantry:0 "Line Infantry"
+  innovation_line_infantry_desc:0 "Line infantry were a type of infantry unit that was used by European armies during the Revolutionary Era. They were armed with muskets and bayonets, and they fought in close formation in long lines. Line infantry were highly disciplined and effective soldiers, and they played a key role in many of the great military campaigns of the time."
+
+  # Regional Innovations
+  innovation_new_model_army:0 "New Model Army"
+  innovation_new_model_army_desc:0 "The New Model Army was a type of army that was used by the Parliamentarians during the English Civil War in the mid-17th century. It was a professional and well-trained force that was organized and equipped according to modern military principles. The New Model Army was highly effective in battle, and it played a key role in the victory of the Parliamentarians over the Royalists."
+  red_coats:0 "Red Coats"
+  red_coats_flavor:0 "Red Coats were a type of infantry unit that was used by the British army during the Revolutionary Era. They were named for their distinctive red uniforms, which made them highly visible on the battlefield. Red Coats were highly disciplined and effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_cantonal_system:0 "Cantonal System"
+  innovation_cantonal_system_desc:0 "The Cantonal System was a system of military organization that was used by the Prussian army during the Revolutionary Era. It divided the country into cantons, each of which was responsible for raising and maintaining a regiment of soldiers. The Cantonal System made the Prussian army highly efficient and effective, and it played a key role in the success of the Prussian army in battle."
+  jagers:0 "Jagers"
+  jagers_flavor:0 "Jagers were a type of light infantry unit that was used by the Prussian army during the Revolutionary Era. They were highly skilled and mobile soldiers, and they were used for scouting, skirmishing, and other light infantry duties. Jagers were highly effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_sans_culottes:0 "Sans-Culottes"
+  innovation_sans_culottes_desc:0 "The Sans-Culottes were a group of radical revolutionaries who played a key role in the French Revolution. They were working-class people who wore long trousers instead of the knee breeches that were worn by the nobility. The Sans-Culottes were highly active in the political and social life of France during the Revolutionary Era, and they played a key role in the overthrow of the monarchy and the establishment of the French Republic."
+  revolutionary_infantry:0 "Revolutionary Infantry"
+  revolutionary_infantry_flavor:0 "Revolutionary Infantry were a type of infantry unit that was used by the French army during the Revolutionary Era. They were armed with muskets and bayonets, and they fought in close formation in long lines. Revolutionary Infantry were highly disciplined and effective soldiers, and they played a key role in many of the great military campaigns of the time."
+  innovation_cossacks:0 "Cossacks Arrival"
+  innovation_cossacks_desc:0 "The Cossacks were a group of semi-nomadic people who lived in the steppes of Eastern Europe. They were skilled horsemen and warriors, and they were highly valued as mercenaries by the rulers of Europe. The Cossacks played a key role in many of the great military campaigns of the Revolutionary Era, and they were feared and respected by their enemies."
+  cossacks:0 "Cossacks"
+  cossacks_flavor:0 "Cossacks were a type of cavalry unit that was used by European armies during the Revolutionary Era. They were highly skilled horsemen and warriors, and they were known for their speed, agility, and ferocity in battle. Cossacks played a key role in many of the great military campaigns of the time, and they were feared and respected by their enemies."
+
+  # Empire Casus Belli
+  revolutionary_empire_invasion:0 "Spread Revolutionary Ideals"
+  REVOLUTIONARY_INVASION_CB_NAME:1 "Spread Ideals to [empire|E]"
+  REVOLUTIONARY_INVASION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Spread of Ideals to [TITLE.GetBaseName]"
+  REVOLUTIONARY_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
+  # Dynasties
+  dynn_Bonaparte:0 "Bonaparte"
+
+  # Titles
+  PRUSSIA:0 "Prussia"
+  GREAT_BRITAIN:0 "Great Britain"
+  NAPOLEANIC_FRANCE:0 "Napoleonic France"
+  TSARIST_RUSSIA:0 "Tsarist Russia"
+
+  # Bookmark
+  bm_group_1799:0 "1799" 
+  bm_1799_start:0 "The Revolutionary Era"
+  bm_1799_start_desc:0 "The Revolutionary Era was a period of great political and social change that began in the late 18th century and continued into the early 19th century. It was a time of revolution, when the people of Europe rose up against their rulers and demanded greater political and social rights. The Revolutionary Era was a time of great upheaval and conflict, as the old order was overthrown and a new order was established. The Revolutionary Era was a time of great change and transformation, and it laid the foundation for the modern world."
+  bookmark_1799_napolean_bonaparte:0 "Napoleon Bonaparte"
+  bookmark_1799_napolean_bonaparte_desc:0 "Napoleon Bonaparte was a French military and political leader who rose to prominence during the French Revolution and its associated wars. As Napoleon I, he was Emperor of the French from 1804 to 1814 and again in 1815. Napoleon dominated European and global affairs for more than a decade while leading France against a series of coalitions in the Napoleonic Wars. He won most of these wars and the vast majority of his battles, building a large empire that ruled over continental Europe before its final collapse in 1815. One of the greatest commanders in history, his wars and campaigns are studied at military schools worldwide. Napoleon's political and cultural legacy has endured as one of the most celebrated and controversial leaders in human history."
+  bookmark_1799_franz_habsburg:0 "Franz Habsburg"
+  bookmark_1799_franz_habsburg_desc:0 "Franz Habsburg was the last Holy Roman Emperor and the first Emperor of Austria. He was a member of the House of Habsburg-Lorraine, and he ruled over the Austrian Empire from 1804 to 1835. Franz was a conservative ruler who sought to maintain the power and influence of the Habsburg dynasty in Europe. He was a staunch opponent of the French Revolution and its associated wars, and he led the Austrian Empire in a series of conflicts against Napoleon Bonaparte and his allies. Franz was ultimately defeated by Napoleon at the Battle of Austerlitz in 1805, and he was forced to abdicate the throne in 1806."
+  bookmark_1799_pavel_romanov:0 "Pavel Romanov"
+  bookmark_1799_pavel_romanov_desc:0 "Pavel Romanov was the Emperor of Russia from 1796 to 1801. He was a member of the House of Romanov, and he was the son of Catherine the Great. Pavel was a conservative ruler who sought to maintain the power and influence of the Russian Empire in Europe. He was a staunch opponent of the French Revolution and its associated wars, and he led Russia in a series of conflicts against Napoleon Bonaparte and his allies. Pavel was ultimately assassinated in a coup d'etat in 1801, and he was succeeded by his son Alexander I."
+  bookmark_1799_george_hanover:0 "George Hanover"
+  bookmark_1799_george_hanover_desc:0 "George Hanover was the King of Great Britain and Ireland from 1760 to 1820. He was a member of the House of Hanover, and he was the first British monarch to be born in Britain. George was a conservative ruler who sought to maintain the power and influence of the British Empire in Europe. He was a staunch opponent of the French Revolution and its associated wars, and he led Britain in a series of conflicts against Napoleon Bonaparte and his allies. George was ultimately defeated by Napoleon at the Battle of Waterloo in 1815, and he was forced to abdicate the throne in 1820."
+  bookmark_1799_friedrich_wilhelm_hohenzollern:0 "Friedrich Wilhelm Hohenzollern"
+  bookmark_1799_friedrich_wilhelm_hohenzollern_desc:0 "Friedrich Wilhelm Hohenzollern was the King of Prussia from 1797 to 1840. He was a member of the House of Hohenzollern, and he was a conservative ruler who sought to maintain the power and influence of the Prussian Empire in Europe. Friedrich Wilhelm was a staunch opponent of the French Revolution and its associated wars, and he led Prussia in a series of conflicts against Napoleon Bonaparte and his allies. Friedrich Wilhelm was ultimately defeated by Napoleon at the Battle of Jena-Auerstedt in 1806, and he was forced to abdicate the throne in 1807."

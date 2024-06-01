@@ -1,0 +1,19 @@
+5000000 = {
+    name = "Franz" #Franz Habsburg
+    dynasty = 1100003
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+# 5000001 = {
+#     name = "Franz" #Franz Habsburg
+#     dynasty = 1100003
+#     religion = "catholic"
+#     culture = bavarian
+#     1768.2.12 = {
+#         birth = "1768.2.12"
+#     }
+# }

@@ -1,0 +1,397 @@
+# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 80
+
+winged_hussars = {
+	type = heavy_cavalry
+	
+	damage = 175
+	toughness = 60
+	pursuit = 55
+	screen = 10
+	
+	terrain_bonus = {
+        plains = { damage = 25 pursuit = 25 screen = 20 }
+        drylands = { damage = 25 pursuit = 25 screen = 20 }
+        farmlands = { damage = 25 }
+        oasis = { damage = 25 toughness = 20 }
+        jungle = { damage = -25 toughness = -20 pursuit = -35 }
+        mountains = { damage = -55 pursuit = -35 }
+        desert = { toughness = -20 pursuit = -35 }
+        desert_mountains = { toughness = -20 pursuit = -35 }
+        wetlands = { damage = -125 toughness = -40 pursuit = -45 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -55 toughness = -20 pursuit = -15 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_infantry = 1
+        archers = 1
+        skirmishers = 1
+	}
+
+	buy_cost = { gold = winged_hussars_recruitment_cost }
+	low_maintenance_cost = { gold = winged_hussars_low_maint_cost }
+	high_maintenance_cost = { gold = winged_hussars_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = winged_hussars
+}
+
+hussars = {
+	type = light_cavalry
+	
+	damage = 48
+	toughness = 20
+	pursuit = 100
+	screen = 55
+	
+	terrain_bonus = {
+        hills = { damage = 12 }
+        plains = { damage = 32 pursuit = 30 screen = 25 }
+        drylands = { damage = 32 pursuit = 30 screen = 25 }
+        farmlands = { damage = 22 }
+        oasis = { damage = 32 toughness = 10 screen = -35 }
+        jungle = { damage = -28 toughness = -10 pursuit = -50 screen = -35 }
+        forest = { damage = -23 toughness = -10 pursuit = -30 screen = -25 }
+        mountains = { damage = -22 pursuit = -35 }
+        desert_mountains = { damage = -22 pursuit = -35 }
+        wetlands = { damage = -38 toughness = -10 pursuit = -75 screen = -40 }
+	}
+
+	winter_bonus = {
+		normal_winter = { toughness = -10 }
+		harsh_winter = { toughness = -10 pursuit = -20 }
+	}
+
+	counters = {
+        archers = 1
+        skirmishers = 1
+	}
+
+	buy_cost = { gold = hussars_recruitment_cost }
+	low_maintenance_cost = { gold = hussars_low_maint_cost }
+	high_maintenance_cost = { gold = hussars_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = hussars
+}
+
+arquebusiers = {
+	type = archers
+	
+	damage = 69
+	toughness = 13
+	pursuit = 0
+	screen = 20
+	
+	terrain_bonus = {
+        hills = { damage = 31 toughness = 17 screen = 10 }
+        farmlands = { damage = 11 toughness = 17 }
+        mountains = { damage = 31 toughness = 17 }
+        forest = { damage = -29 screen = 10 }
+        jungle = { damage = -29 screen = 10 }
+        wetlands = { damage = -39 toughness = -7 screen = 10 }
+        taiga = { damage = -29 toughness = -7 screen = 10 }
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -23 toughness = -3 }
+		harsh_winter = { damage = -33 toughness = -3 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+        skirmishers = 1
+	}
+
+	buy_cost = { gold = arquebusiers_recruitment_cost }
+	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
+	high_maintenance_cost = { gold = arquebusiers_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arquebusiers
+}
+
+cossacks = {
+	type = light_cavalry
+	
+	damage = 100
+	toughness = 30
+	pursuit = 120
+	screen = 80
+	
+	terrain_bonus = {
+		hills = { damage = 12 }
+		plains = { damage = 32 pursuit = 30 screen = 25 }
+		drylands = { damage = 32 pursuit = 30 screen = 25 }
+		farmlands = { damage = 22 }
+		oasis = { damage = 32 toughness = 10 screen = -35 }
+		jungle = { damage = -28 toughness = -10 pursuit = -50 screen = -35 }
+		forest = { damage = -23 toughness = -10 pursuit = -30 screen = -25 }
+		mountains = { damage = -22 pursuit = -35 }
+		desert_mountains = { damage = -22 pursuit = -35 }
+		wetlands = { damage = -38 toughness = -10 pursuit = -75 screen = -40 }
+	}
+
+	winter_bonus = {
+		normal_winter = { toughness = -10 }
+		harsh_winter = { toughness = -10 pursuit = -20 }
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = cossacks_recruitment_cost }
+	low_maintenance_cost = { gold = cossacks_low_maint_cost }
+	high_maintenance_cost = { gold = cossacks_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = cossacks
+}
+
+red_coats = {
+	type = archers
+	
+	damage = 150
+	toughness = 40
+	pursuit = 20
+	screen = 60
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 10 screen = 10 }
+		plains = { damage = 10 toughness = 10 screen = 10 }
+		drylands = { damage = 10 toughness = 10 screen = 10 }
+		farmlands = { damage = 10 toughness = 10 screen = 10 }
+		mountains = { damage = 20 toughness = 20 screen = 20 }
+		jungle = { damage = -20 toughness = -20 screen = -20 }
+		taiga = { damage = -20 toughness = -20 screen = -20 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -10 toughness = -10 }
+	}
+
+	counters = {
+		skirmishers	= 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+
+	buy_cost = { gold = red_coats_recruitment_cost }
+	low_maintenance_cost = { gold = red_coats_low_maint_cost }
+	high_maintenance_cost = { gold = red_coats_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = red_coats
+}
+
+jagers = {
+	type = archers
+	
+	damage = 125
+	toughness = 30
+	pursuit = 40
+	screen = 40
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 10 screen = 10 }
+		plains = { damage = 10 toughness = 10 screen = 10 }
+		drylands = { damage = 10 toughness = 10 screen = 10 }
+		farmlands = { damage = 10 toughness = 10 screen = 10 }
+		mountains = { damage = 20 toughness = 20 }
+		jungle = { damage = -20 toughness = -20 screen = -20 }
+		taiga = { damage = -20 toughness = -20 screen = -20 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -10 toughness = -10 }
+	}
+
+	counters = {
+		skirmishers = 1
+		archers = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = jagers_recruitment_cost }
+	low_maintenance_cost = { gold = jagers_low_maint_cost }
+	high_maintenance_cost = { gold = jagers_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = jagers
+}
+
+revolutionary_infantry = {
+	type = archers
+	
+	damage = 165
+	toughness = 45
+	pursuit = 30
+	screen = 40
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 10 screen = 10 }
+		plains = { damage = 10 toughness = 10 screen = 10 }
+		drylands = { damage = 10 toughness = 10 screen = 10 }
+		farmlands = { damage = 10 toughness = 10 screen = 10 }
+		oasis = { damage = 10 toughness = 10 screen = 10 }
+		mountains = { damage = 20 toughness = 20 screen = 20 }
+		jungle = { damage = -20 toughness = -20 screen = -20 }
+		taiga = { damage = -20 toughness = -20 screen = -20 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -10 toughness = -10 }
+	}
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		light_cavalry = 1
+		pikemen = 1
+	}
+
+	buy_cost = { gold = revolutionary_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = revolutionary_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = revolutionary_infantry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = revolutionary_infantry
+}
+
+howitzer = {
+	type = siege_weapon
+	fights_in_main_phase = no
+	
+	damage = 0
+	toughness = 20
+	
+	siege_tier = 6
+	siege_value = 1
+	
+	buy_cost = { gold = howitzer_recruitment_cost }
+	low_maintenance_cost = { gold = howitzer_low_maint_cost }
+	high_maintenance_cost = { gold = howitzer_high_maint_cost }
+	
+	stack = 10
+	allowed_in_hired_troops = no
+}
+
+dragoon = {
+	type = light_cavalry
+	
+	damage = 60
+	toughness = 30
+	pursuit = 80
+	screen = 80
+	
+	terrain_bonus = {
+		hills = { damage = 12 }
+		plains = { damage = 32 pursuit = 30 screen = 25 }
+		drylands = { damage = 32 pursuit = 30 screen = 25 }
+		farmlands = { damage = 22 }
+		jungle = { damage = -28 toughness = -10 pursuit = -50 screen = -35 }
+		forest = { damage = -23 toughness = -10 pursuit = -30 screen = -25 }
+		desert = { damage = -22 pursuit = -15 }
+		mountains = { damage = -22 pursuit = -35 }
+		desert_mountains = { damage = -22 pursuit = -35 }
+		wetlands = { damage = -38 toughness = -10 pursuit = -75 screen = -40 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { toughness = -10 pursuit = -20 }
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = dragoon_recruitment_cost }
+	low_maintenance_cost = { gold = dragoon_low_maint_cost }
+	high_maintenance_cost = { gold = dragoon_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = dragoon
+}
+
+musketeers = {
+	type = archers
+	
+	damage = 100
+	toughness = 20
+	pursuit = 10
+	screen = 45
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 10 screen = 10 }
+		farmlands = { damage = 10 toughness = 10 screen = 10 }
+		mountains = { damage = 20 toughness = 20 }
+		jungle = { damage = -20 toughness = -20 screen = -20 }
+		forest = { damage = -20 toughness = -20 screen = -20 }
+		taiga = { damage = -20 toughness = -20 screen = -20 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -10 toughness = -10 }
+	}
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = musketeers_recruitment_cost }
+	low_maintenance_cost = { gold = musketeers_low_maint_cost }
+	high_maintenance_cost = { gold = musketeers_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = musketeers
+}

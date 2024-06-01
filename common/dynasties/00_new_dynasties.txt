@@ -1,0 +1,19 @@
+1100000 = {
+	name = "dynn_Bonaparte"
+	culture = "french"
+}
+
+2100000 = {
+    name = "dynn_Romanov"
+    culture = "russian"
+}
+
+3100000 = {
+    name = "dynn_Hanover"
+    culture = "english"
+}
+
+4100000 = {
+    name = "dynn_Hohenzollern"
+    culture = "prussian"
+}

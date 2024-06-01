@@ -1,0 +1,19 @@
+house_bonaparte = {
+	name = dynn_Bonaparte
+	dynasty = 1100000
+}
+
+house_romanov = {
+    name = dynn_Romanov
+    dynasty = 2100000
+}
+
+house_windsor = {
+    name = dynn_Hanover
+    dynasty = 3100000
+}
+
+house_hohenzollern = {
+    name = dynn_Hohenzollern
+    dynasty = 4100000
+}

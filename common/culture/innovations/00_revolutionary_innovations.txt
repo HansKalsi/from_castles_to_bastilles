@@ -1,0 +1,138 @@
+#### Local Types ####
+@musketeers = "gfx/interface/icons/culture_innovations/innovation_guns.png"
+@line_infantry = "gfx/interface/icons/culture_innovations/line_infantry.png"
+@world_order = "gfx/interface/icons/culture_innovations/world_order_innovation.png"
+@dragoons = "gfx/interface/icons/culture_innovations/the_dragon_innovation.png"
+@ancient_art = "gfx/interface/icons/culture_innovations/innovation_ancient_art.png"
+@the_guillotine = "gfx/interface/icons/culture_innovations/guillotine_innovation.png"
+@gribeauval_system = "gfx/interface/icons/culture_innovations/howitzer_innovation.png"
+@new_model_army = "gfx/interface/icons/culture_innovations/new_model_army_innovation.png"
+@cantonal_system = "gfx/interface/icons/culture_innovations/cantonal_system_innovation.png"
+@sans_culottes = "gfx/interface/icons/culture_innovations/revolutionary_innovation.png"
+@cossacks = "gfx/interface/icons/culture_innovations/cossacks_innovation.png"
+
+#culture_group_military
+innovation_flintlock_muskets = {
+	group = culture_group_military
+	culture_era = culture_era_revolutionary_era
+	icon = @musketeers
+
+	unlock_maa = musketeers
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+innovation_the_dragon = {
+	group = culture_group_military
+	culture_era = culture_era_revolutionary_era
+	icon = @dragoons
+
+	unlock_maa = dragoon
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+innovation_gribeauval_system = {
+	group = culture_group_military
+	culture_era = culture_era_revolutionary_era
+	icon = @gribeauval_system
+
+	unlock_maa = howitzer
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+#culture_group_civic
+innovation_world_order = {
+	group = culture_group_civic
+	culture_era = culture_era_revolutionary_era
+	icon = @world_order
+
+	unlock_casus_belli = revolutionary_empire_invasion
+
+	custom = cb_discount_prestige_10
+	custom = cb_discount_prestige_10
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+innovation_the_guillotine = {
+	group = culture_group_civic
+	culture_era = culture_era_revolutionary_era
+	icon = @the_guillotine
+
+	character_modifier = {
+		levy_size = 0.2
+		domain_tax_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+innovation_line_infantry = {
+	group = culture_group_civic
+	culture_era = culture_era_revolutionary_era
+	icon = @line_infantry
+
+	character_modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 7
+	}
+
+	flag = global_regular
+	flag = revolutionary_era_era_regular
+}
+
+#culture_group_regional
+innovation_new_model_army = {
+    group = culture_group_regional
+    culture_era = culture_era_revolutionary_era
+	region = ghw_region_britannia
+    icon = @new_model_army
+
+	unlock_maa = red_coats
+
+	flag = global_regional
+	flag = revolutionary_era_era_regional
+}
+
+innovation_cantonal_system = {
+    group = culture_group_regional
+    culture_era = culture_era_revolutionary_era
+	region = ghw_region_germany
+    icon = @cantonal_system
+
+	unlock_maa = jagers
+
+	flag = global_regional
+	flag = revolutionary_era_era_regional
+}
+
+innovation_sans_culottes = {
+    group = culture_group_regional
+    culture_era = culture_era_revolutionary_era
+	region = world_europe_west_francia
+    icon = @sans_culottes
+
+	unlock_maa = revolutionary_infantry
+
+	flag = global_regional
+	flag = revolutionary_era_era_regional
+}
+
+innovation_cossacks = {
+	group = culture_group_regional
+	culture_era = culture_era_revolutionary_era
+	region = ghw_region_russia
+	icon = @cossacks
+
+	unlock_maa = cossacks
+
+	flag = global_regional
+	flag = revolutionary_era_era_regional
+}

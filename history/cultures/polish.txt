@@ -1,0 +1,71 @@
+# Polish
+
+867.1.1 = {
+	discover_innovation = innovation_motte
+	#
+	discover_innovation = innovation_gavelkind
+	discover_innovation = innovation_plenary_assemblies
+	discover_innovation = innovation_currency_01
+	discover_innovation = innovation_crop_rotation
+	#
+}
+
+950.1.1 = {
+	discover_innovation = innovation_barracks
+	discover_innovation = innovation_bannus
+	discover_innovation = innovation_catapult
+	discover_innovation = innovation_mustering_grounds
+	discover_innovation = innovation_quilted_armor
+	#
+	discover_innovation = innovation_development_01
+	discover_innovation = innovation_city_planning
+	discover_innovation = innovation_casus_belli
+	discover_innovation = innovation_ledger
+	#
+	join_era = culture_era_early_medieval
+}
+
+1066.1.1 = {
+	discover_innovation = innovation_burhs
+	discover_innovation = innovation_horseshoes
+	discover_innovation = innovation_arched_saddle
+	#
+	discover_innovation = innovation_hereditary_rule
+	discover_innovation = innovation_royal_prerogative
+	discover_innovation = innovation_manorialism
+	discover_innovation = innovation_baliffs
+}
+
+1500.1.1 = {
+	join_era = culture_era_high_medieval
+}
+
+1501.1.1 = {
+	join_era = culture_era_late_medieval
+}
+
+1502.1.1 = {
+	join_era = culture_era_the_renaissance
+}
+
+1699.1.1 = {
+	join_era = culture_era_revolutionary_era
+}
+
+1700.1.1 = {
+    discover_innovation = innovation_matchlock_muskets
+    discover_innovation = innovation_hussars
+    discover_innovation = innovation_horizontal_waterwheel
+    discover_innovation = innovation_printing_press
+    discover_innovation = innovation_gunpowder_prominence
+    discover_innovation = innovation_ancient_art
+    discover_innovation = innovation_winged_hussars
+
+    discover_innovation = innovation_flintlock_muskets
+    discover_innovation = innovation_the_dragon
+    discover_innovation = innovation_gribeauval_system
+    discover_innovation = innovation_world_order
+    discover_innovation = innovation_the_guillotine
+    discover_innovation = innovation_line_infantry
+	join_era = culture_era_revolutionary_era
+}

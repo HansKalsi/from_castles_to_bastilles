@@ -1,0 +1,39 @@
+1000000 = {
+	name = "Napolean" #Napolean Bonaparte
+	dynasty = 1100000
+	religion = "catholic"
+	culture = french
+	1769.8.15 = {
+		birth = "1769.8.15"
+	}
+}
+
+2000000 = {
+	name = "Pavel" #Pavel Romanov
+	dynasty = 2100000
+	religion = "orthodox"
+	culture = russian
+	1754.10.1 = {
+		birth = "1754.10.1"
+	}
+}
+
+3000000 = {
+    name = "George" #George Hanover
+    dynasty = 3100000
+    religion = "catholic"
+    culture = english
+    1738.6.4 = {
+        birth = "1738.6.4"
+    }
+}
+
+4000000 = {
+    name = "Friedrich Wilhelm" #Friedrich Wilhelm Hohenzollern
+    dynasty = 4100000
+    religion = "catholic"
+    culture = prussian
+    1770.8.3 = {
+        birth = "1770.8.3"
+    }
+}

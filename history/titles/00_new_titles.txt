@@ -1,0 +1,42 @@
+k_east_francia = {
+	1701.1.1 = {
+		name = PRUSSIA
+	}
+	1799.1.1 = {
+		holder = 1000003
+		liege = "e_hre"
+	}
+}
+
+e_france = {
+    1701.1.1 = {
+        name = NAPOLEANIC_FRANCE
+    }
+    1799.1.1 = {
+        holder = 1000000
+    }
+}
+
+e_hre = {
+    1799.1.1 = {
+        holder = 1000004
+    }
+}
+
+e_russia = {
+    1701.1.1 = {
+        name = TSARIST_RUSSIA
+    }
+    1799.1.1 = {
+        holder = 1000001
+    }
+}
+
+e_britannia = {
+    1701.1.1 = {
+        name = GREAT_BRITAIN
+    }
+    1799.1.1 = {
+        holder = 1000002
+    }
+}
