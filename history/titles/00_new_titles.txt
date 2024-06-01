@@ -3,7 +3,7 @@ k_east_francia = {
 		name = PRUSSIA
 	}
 	1799.1.1 = {
-		holder = 1000003
+		holder = 4000000
 		liege = "e_hre"
 	}
 }
@@ -17,18 +17,12 @@ e_france = {
     }
 }
 
-e_hre = {
-    1799.1.1 = {
-        holder = 1000004
-    }
-}
-
 e_russia = {
     1701.1.1 = {
         name = TSARIST_RUSSIA
     }
     1799.1.1 = {
-        holder = 1000001
+        holder = 2000000
     }
 }
 
@@ -37,6 +31,6 @@ e_britannia = {
         name = GREAT_BRITAIN
     }
     1799.1.1 = {
-        holder = 1000002
+        holder = 3000000
     }
 }

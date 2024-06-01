@@ -1,0 +1,155 @@
+e_arabia = {
+	1799.1.1 = {
+		holder = 6000000
+	}
+}
+
+d_bosna = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = k_serbia
+	}
+}
+
+d_lower_bosna = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = k_serbia
+	}
+}
+
+d_usora = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = k_serbia
+	}
+}
+
+k_serbia = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_bulgaria = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_epirus = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_thessalonika = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_hellas = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_krete = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_nikaea = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_anatolia = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_pontus = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_armenia = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_georgia = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_cyprus = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_dacia = {
+	1799.1.1 = {
+		holder = 6000001
+		liege = e_arabia
+	}
+}
+
+k_moldavia = {
+	1799.1.1 = {
+		holder = 6000002
+		liege = e_arabia
+	}
+}
+
+k_jazira = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}
+
+k_mesopotamia = {
+	1799.1.1 = {
+		holder = 6000000
+		liege = e_arabia
+		de_jure_liege = e_arabia
+	}
+}

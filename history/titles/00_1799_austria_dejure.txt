@@ -1,0 +1,102 @@
+# Still HRE at this point in time
+e_hre = {
+    1799.1.1 = {
+        holder = 5000000
+    }
+}
+
+k_hungary = {
+	1799.1.1 = {
+		# holder = 5000000
+		liege = e_hre
+		de_jure_liege = e_hre
+	}
+}
+
+k_croatia = {
+	1799.1.1 = {
+		# holder = 5000000
+		liege = e_hre
+		de_jure_liege = e_hre
+	}
+}
+
+d_transylvania = {
+	1799.1.1 = {
+		holder = 5000000
+		de_jure_liege = k_dacia
+	}
+}
+
+d_lesser_poland = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_galicia-volhynia
+	}
+}
+
+k_galicia-volhynia = {
+	1799.1.1 = {
+		# holder = 5000000
+		liege = e_hre
+		de_jure_liege = e_hre
+	}
+}
+
+k_venice = {
+	1799.1.1 = {
+		# holder = 5000000
+		liege = e_hre
+		de_jure_liege = e_hre
+	}
+}
+
+d_friuli = {
+	1799.1.1 = {
+		# holder = 5000000
+		liege = e_hre
+		de_jure_liege = k_venice
+	}
+}
+
+d_verona = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_venice
+	}
+}
+
+c_trent = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = d_tyrol
+	}
+}
+
+d_nordgau = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_east_francia
+	}
+}
+
+d_bavaria = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_east_francia
+	}
+}
+
+d_augsburg = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_east_francia
+	}
+}
+
+d_volhynia = {
+	1799.1.1 = {
+		# holder = 5000000
+		de_jure_liege = k_ruthenia
+	}
+}

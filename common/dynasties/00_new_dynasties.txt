@@ -17,3 +17,18 @@
     name = "dynn_Hohenzollern"
     culture = "prussian"
 }
+
+6100000 = {
+    name = "dynn_Ottoman"
+    culture = oghuz
+}
+
+6100001 = {
+    name = "dynn_Mourouzis"
+    culture = vlach
+}
+
+6100002 = {
+    name = "dynn_Ypsilantis"
+    culture = greek
+}
