@@ -37,36 +37,3 @@
         birth = "1770.8.3"
     }
 }
-
-# Ottoman ruler
-6000000 = {
-    name = "Selim" #Selim Ottoman
-    dynasty = 6100000
-    religion = "ashari"
-    culture = turkish
-    1761.12.24 = {
-        birth = "1761.12.24"
-    }
-}
-
-# Wallachia ruler
-6000001 = {
-    name = "Alexander" #Alexander Mourouzis
-    dynasty = 6100001
-    religion = "orthodox"
-    culture = vlach
-    1750.5.1 = {
-        birth = "1750.5.1"
-    }
-}
-
-# Moldavia ruler
-6000002 = {
-    name = "Constantine" #Constantine Ypsilantis
-    dynasty = 6100002
-    religion = "orthodox"
-    culture = greek
-    1760.5.1 = {
-        birth = "1760.5.1"
-    }
-}

@@ -7,7 +7,7 @@ e_hre = {
 
 k_hungary = {
 	1799.1.1 = {
-		# holder = 5000000
+		holder = 5000001
 		liege = e_hre
 		de_jure_liege = e_hre
 	}
@@ -15,7 +15,7 @@ k_hungary = {
 
 k_croatia = {
 	1799.1.1 = {
-		# holder = 5000000
+		holder = 5000002
 		liege = e_hre
 		de_jure_liege = e_hre
 	}
@@ -23,7 +23,8 @@ k_croatia = {
 
 d_transylvania = {
 	1799.1.1 = {
-		holder = 5000000
+		holder = 5000003
+		liege = e_hre
 		de_jure_liege = k_dacia
 	}
 }
@@ -37,7 +38,7 @@ d_lesser_poland = {
 
 k_galicia-volhynia = {
 	1799.1.1 = {
-		# holder = 5000000
+		holder = 5000004
 		liege = e_hre
 		de_jure_liege = e_hre
 	}
@@ -45,7 +46,7 @@ k_galicia-volhynia = {
 
 k_venice = {
 	1799.1.1 = {
-		# holder = 5000000
+		holder = 5000005
 		liege = e_hre
 		de_jure_liege = e_hre
 	}
@@ -98,5 +99,26 @@ d_volhynia = {
 	1799.1.1 = {
 		# holder = 5000000
 		de_jure_liege = k_ruthenia
+	}
+}
+
+k_bohemia = {
+	1799.1.1 = {
+		holder = 5000006
+		liege = e_hre
+	}
+}
+
+d_salzburg = {
+	1799.1.1 = {
+		holder = 5000007
+		de_jure_liege = k_bavaria
+	}
+}
+
+d_temes = {
+	1799.1.1 = {
+		holder = 5000008
+		liege = e_hre
 	}
 }

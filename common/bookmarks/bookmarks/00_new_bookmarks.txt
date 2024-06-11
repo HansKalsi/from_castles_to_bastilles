@@ -78,7 +78,7 @@ bm_1799_start = {
 	# Franz Habsburg ID: 5000000
 	character = {
 		name = "bookmark_1799_franz_habsburg"
-		dynasty = 5100000
+		dynasty_house = house_habsburg
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1768.2.12

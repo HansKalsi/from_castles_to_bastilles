@@ -1,9 +1,14 @@
-5100000 = {
-    name = "dynn_Habsburg"
-    culture = "bavarian"
-}
+# 5100000 = {
+#     name = "dynn_Habsburg"
+#     culture = "bavarian"
+# }
 
 # 5100000 = {
 #     name = "dynn_Habsburg"
 #     culture = "bavarian"
 # }
+
+5100000 = {
+    name = "dynn_test"
+    culture = "bavarian"
+}

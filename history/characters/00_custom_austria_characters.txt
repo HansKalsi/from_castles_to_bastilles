@@ -1,5 +1,15 @@
 5000000 = {
     name = "Franz" #Franz Habsburg
+    dynasty_house = house_habsburg
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000001 = {
+    name = "Bob" #Franz Habsburg
     dynasty = 5100000
     religion = "catholic"
     culture = bavarian
@@ -8,12 +18,72 @@
     }
 }
 
-# 5000001 = {
-#     name = "Franz" #Franz Habsburg
-#     dynasty = 5100000
-#     religion = "catholic"
-#     culture = bavarian
-#     1768.2.12 = {
-#         birth = "1768.2.12"
-#     }
-# }
+5000002 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000003 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000004 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000005 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000006 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000007 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
+
+5000008 = {
+    name = "Bob" #Franz Habsburg
+    dynasty = 5100000
+    religion = "catholic"
+    culture = bavarian
+    1768.2.12 = {
+        birth = "1768.2.12"
+    }
+}
