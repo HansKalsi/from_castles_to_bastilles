@@ -51,7 +51,7 @@ innovation_world_order = {
 	culture_era = culture_era_revolutionary_era
 	icon = @world_order
 
-	unlock_casus_belli = revolutionary_empire_invasion
+	# unlock_casus_belli = revolutionary_empire_invasion
 
 	custom = cb_discount_prestige_10
 	custom = cb_discount_prestige_10

@@ -3,6 +3,11 @@
 	culture = "french"
 }
 
+1100001 = {
+    name = "dynn_dHilliers"
+    culture = "french"
+}
+
 2100000 = {
     name = "dynn_Romanov"
     culture = "russian"

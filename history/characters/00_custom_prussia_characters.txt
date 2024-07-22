@@ -1,0 +1,9 @@
+4000000 = {
+    name = "Friedrich Wilhelm" #Friedrich Wilhelm Hohenzollern
+    dynasty = 4100000
+    religion = "catholic"
+    culture = prussian
+    1770.8.3 = {
+        birth = "1770.8.3"
+    }
+}

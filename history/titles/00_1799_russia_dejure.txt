@@ -1,0 +1,11 @@
+k_lithuania = {
+	1799.1.1 = {
+		de_jure_liege = e_russia
+	}
+}
+
+k_esthonia = {
+	1799.1.1 = {
+		de_jure_liege = e_russia
+	}
+}

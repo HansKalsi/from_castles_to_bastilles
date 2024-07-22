@@ -1,14 +1,9 @@
-# 5100000 = {
-#     name = "dynn_Habsburg"
-#     culture = "bavarian"
-# }
+5100001 = {
+    name = "dynn_august"
+    culture = "bavarian"
+}
 
-# 5100000 = {
-#     name = "dynn_Habsburg"
-#     culture = "bavarian"
-# }
-
-5100000 = {
-    name = "dynn_test"
+5100002 = {
+    name = "dynn_von_colloredo"
     culture = "bavarian"
 }

@@ -8,6 +8,16 @@
 	}
 }
 
+1000001 = {
+	name = "Louis" #Louis Baraguey d'Hilliers
+	dynasty = 1100001
+	religion = "catholic"
+	culture = french
+	1764.8.13 = {
+		birth = "1764.8.13"
+	}
+}
+
 2000000 = {
 	name = "Pavel" #Pavel Romanov
 	dynasty = 2100000
@@ -25,15 +35,5 @@
     culture = english
     1738.6.4 = {
         birth = "1738.6.4"
-    }
-}
-
-4000000 = {
-    name = "Friedrich Wilhelm" #Friedrich Wilhelm Hohenzollern
-    dynasty = 4100000
-    religion = "catholic"
-    culture = prussian
-    1770.8.3 = {
-        birth = "1770.8.3"
     }
 }

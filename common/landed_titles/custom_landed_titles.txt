@@ -1,0 +1,12 @@
+k_prussia = {	#Prussia
+	color = { 200 200 200 }
+
+	capital = c_berlin
+
+	can_create = {
+		trigger_if = {
+			limit = { is_ai = yes }
+			NOT = { exists = title:e_hre }
+		}
+	}
+}
