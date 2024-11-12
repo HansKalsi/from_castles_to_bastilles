@@ -10,3 +10,15 @@ k_prussia = {	#Prussia
 		}
 	}
 }
+
+e_british_raj = {
+	color = { 220 20 40 }
+	capital = c_delhi
+	definite_form = yes
+}
+
+e_greater_british_raj = {
+	color = { 245 15 35 }
+	capital = c_delhi
+	definite_form = yes
+}
