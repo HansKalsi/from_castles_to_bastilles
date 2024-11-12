@@ -104,3 +104,11 @@
   bookmark_1799_george_hanover_desc:0 "George Hanover was the King of Great Britain and Ireland from 1760 to 1820. He was a member of the House of Hanover, and he was the first British monarch to be born in Britain. George was a conservative ruler who sought to maintain the power and influence of the British Empire in Europe. He was a staunch opponent of the French Revolution and its associated wars, and he led Britain in a series of conflicts against Napoleon Bonaparte and his allies. George was ultimately defeated by Napoleon at the Battle of Waterloo in 1815, and he was forced to abdicate the throne in 1820."
   bookmark_1799_friedrich_wilhelm_hohenzollern:0 "Friedrich Wilhelm Hohenzollern"
   bookmark_1799_friedrich_wilhelm_hohenzollern_desc:0 "Friedrich Wilhelm Hohenzollern was the King of Prussia from 1797 to 1840. He was a member of the House of Hohenzollern, and he was a conservative ruler who sought to maintain the power and influence of the Prussian Empire in Europe. Friedrich Wilhelm was a staunch opponent of the French Revolution and its associated wars, and he led Prussia in a series of conflicts against Napoleon Bonaparte and his allies. Friedrich Wilhelm was ultimately defeated by Napoleon at the Battle of Jena-Auerstedt in 1806, and he was forced to abdicate the throne in 1807."
+
+  # Decisions
+  form_british_raj_decision: "Form British Raj"
+  form_british_raj_decision_desc: "The time has come for us to claim our Indian jewel"
+  form_british_raj_decision_tooltip: "Consolidate the Indian Empires into the British Raj"
+  form_british_raj_decision_effect_tooltip: "All Indian Empires assimilate under British Raj and you gain the British Raj Empire title"
+  form_british_raj_decision_confirm: "The Jewel is mine!"
+  e_british_raj: "British Raj"
