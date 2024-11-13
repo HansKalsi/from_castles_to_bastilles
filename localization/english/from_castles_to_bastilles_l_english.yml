@@ -119,3 +119,11 @@
   form_greater_british_raj_decision_tooltip: "Consolidate the Indian Empires into the Greater British Raj"
   form_greater_british_raj_decision_effect_tooltip: "All Indian Empires assimilate into the British Raj, solidifying your rule over the Indian subcontinent"
   form_greater_british_raj_decision_confirm: "These are my people!"
+
+  #German Culture Decision
+  form_german_culture_decision: "Form Unified German Culture"
+  form_german_culture_decision_desc: "The time has come for us to unify our cultures into one"
+  form_german_culture_decision_tooltip: "Consolidate all Germanic people into one German culture"
+  form_german_culture_decision_effect_tooltip: "All Germanic people assimilate under one Unified German Culture"
+  form_german_culture_decision_confirm: "We are One!"
+  unified_german: "Unified German Culture"
