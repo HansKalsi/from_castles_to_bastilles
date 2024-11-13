@@ -1,0 +1,70 @@
+form_german_culture_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	desc = form_german_culture_decision_desc
+	selection_tooltip = form_german_culture_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		highest_held_title_tier > 3
+
+		root = {
+			OR = {
+				culture = culture:franconian
+				culture = culture:saxon
+				culture = culture:swabian
+				culture = culture:bavarian
+				culture = culture:czech
+				culture = culture:polabian
+				culture = culture:pomeranian
+				culture = culture:polish
+				culture = culture:carantanian
+				culture = culture:hungarian
+				culture = culture:croatian
+			}
+		}
+	}
+
+	is_valid = {
+		AND = {
+			completely_controls_region = german_unified_lands
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		custom_tooltip = form_german_culture_decision_effect_tooltip
+		
+		hidden_effect = {
+
+		}
+
+		convert_family_culture_and_notify_vassals_effect = {
+			CONVERTER = root
+			OLD_CULTURE = root.culture
+			NEW_CULTURE = culture:unified_german
+		}
+
+		discover_all_eras = all
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

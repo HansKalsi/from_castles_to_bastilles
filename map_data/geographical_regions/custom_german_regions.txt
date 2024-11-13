@@ -1,0 +1,90 @@
+world_india_rajastan_test = {
+	duchies = {
+		#Delhi
+		d_kuru d_haritanaka d_mathura d_vodamayutja
+		#Gujarat
+		d_gurjara_mandala d_anartta d_saurashtra d_lata
+		#Rajputana
+		d_maru d_jangladesh d_stravani d_medapata d_ajmer
+		#Malwa
+		d_dadhipadra d_akara_dasarna d_anupa
+		#Kosala
+		d_kanyakubja d_saryupara d_jejakabhukti
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+	}
+}
+
+german_unified_lands = {
+	duchies = {
+		#germany
+		d_angria
+		d_bavaria
+		d_east_franconia
+		d_holstein
+		d_lausitz
+		d_meissen
+		d_nordgau
+		d_ostmark
+		d_ostfalen
+		d_thuringia
+		d_nordmark
+		d_west_franconia
+		d_westfalen
+		d_alsace
+		d_anhalt
+		d_augsburg
+		d_currezia
+		d_hesse
+		d_lower_lorraine
+		d_swabia
+		
+		#bavaria
+		d_osterreich
+		d_carinthia
+		d_krain
+		d_salzburg
+		d_steyermark
+		d_tyrol
+
+		#croatia
+		d_croatia
+		d_dalmatia
+		d_slavonia
+		d_ragusa
+
+		#bohemia
+		d_bohemia
+		d_moravia
+
+		#prussia
+		d_wielkopolska
+		d_kuyavia
+		d_lower_silesia
+		d_mazovia
+		d_pommerania
+		d_upper_silesia
+		d_masuria
+		d_pomerelia
+		d_prussia
+
+		#Galicia-Volhynia
+		d_halych
+		d_lesser_poland
+		d_volhynia
+		d_cherven_cities
+
+		#hungary
+		d_bacs
+		d_gyor
+		d_nyitra
+		d_somogy
+		d_syrmia
+		d_temes
+		d_transcarpathia
+		d_ungvar
+		d_visegrad
+		d_bihar
+		d_transylvania
+	}
+}
