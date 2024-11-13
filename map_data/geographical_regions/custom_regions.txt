@@ -1,16 +1,35 @@
-world_india_rajastan_test = {
+custom_british_raj = {
 	duchies = {
-		#Delhi
-		d_kuru d_haritanaka d_mathura d_vodamayutja
-		#Gujarat
-		d_gurjara_mandala d_anartta d_saurashtra d_lata
-		#Rajputana
-		d_maru d_jangladesh d_stravani d_medapata d_ajmer
-		#Malwa
-		d_dadhipadra d_akara_dasarna d_anupa
-		#Kosala
-		d_kanyakubja d_saryupara d_jejakabhukti
-		#Himalaya
-		d_kurmanchal d_khasa d_nepal d_limbuwan
+		#Lanka
+		d_ruhunu 
+		d_dakhina_desa
+		d_sinhala
+		#Tamilakam
+		d_chera_nadu 
+		d_pandya_nadu 
+		d_chola_nadu 
+		d_tondai_nadu
+		#Karnata
+		d_gangavadi 
+		d_nulambavadi 
+		d_raichur_doab 
+		d_kalyani
+		#Andhara
+		d_pakanadu 
+		d_vengi
+		#Telingana
+		d_racakonda 
+		d_warangal
+		#Maharasta
+		d_rattapadi 
+		d_nasikya 
+		d_devagiri 
+		d_vidharba 
+		d_konkana
+		#Orissa
+		d_dandakaranya 
+		d_kalinga 
+		d_tosali 
+		d_daksina_kosala
 	}
 }
