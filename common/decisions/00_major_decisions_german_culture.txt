@@ -28,9 +28,7 @@ form_german_culture_decision = {
 	}
 
 	is_valid = {
-		AND = {
 			completely_controls_region = german_unified_lands
-		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -43,17 +41,17 @@ form_german_culture_decision = {
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		custom_tooltip = form_german_culture_decision_effect_tooltip
-		
-		hidden_effect = {
-			root.culture = {
-				get_all_innovations_from = culture:unified_german
-			}
-		}
-
+	
 		convert_family_culture_and_notify_vassals_effect = {
 			CONVERTER = root
 			OLD_CULTURE = root.culture
 			NEW_CULTURE = culture:unified_german	
+		}
+
+		hidden_effect = {
+			root.culture = {
+				get_all_innovations_from = root.culture
+			}
 		}
 	}
 
