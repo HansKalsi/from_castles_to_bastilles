@@ -31,6 +31,7 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
+			has_title = title:e_british_raj
 			completely_controls_region = custom_british_raj
 	}
 
