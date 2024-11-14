@@ -31,9 +31,7 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
-		AND = {
 			completely_controls_region = custom_british_raj
-		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -98,10 +96,6 @@ form_greater_british_raj_decision = {
 				culture = culture:welsh
 				culture = culture:cornish
 			}
-		}
-
-		NOT = {
-			has_title = title:e_british_raj
 		}
 	}
 
