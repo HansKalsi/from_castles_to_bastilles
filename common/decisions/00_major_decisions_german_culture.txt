@@ -48,16 +48,16 @@ form_german_culture_decision = {
 		custom_tooltip = form_german_culture_decision_effect_tooltip
 		
 		hidden_effect = {
-
+			root.culture = {
+				get_all_innovations_from = culture:unified_german
+			}
 		}
 
 		convert_family_culture_and_notify_vassals_effect = {
 			CONVERTER = root
 			OLD_CULTURE = root.culture
-			NEW_CULTURE = culture:unified_german
+			NEW_CULTURE = culture:unified_german	
 		}
-
-		discover_all_eras = all
 	}
 
 	ai_potential = {
