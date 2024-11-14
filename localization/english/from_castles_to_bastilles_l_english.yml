@@ -108,7 +108,14 @@
   # Decisions
   form_british_raj_decision: "Form British Raj"
   form_british_raj_decision_desc: "The time has come for us to claim our Indian jewel"
-  form_british_raj_decision_tooltip: "Consolidate the Indian Empires into the British Raj"
-  form_british_raj_decision_effect_tooltip: "All Indian Empires assimilate under British Raj and you gain the British Raj Empire title"
+  form_british_raj_decision_tooltip: "Consolidate the Southern Indian Kingdoms into the British Raj"
+  form_british_raj_decision_effect_tooltip: "All Southern Indian Kingdoms assimilate under British Raj and you gain the British Raj Empire title"
   form_british_raj_decision_confirm: "The Jewel is mine!"
   e_british_raj: "British Raj"
+  custom_british_raj: "Southern India Region"
+
+  form_greater_british_raj_decision: "Form Greater British Raj"
+  form_greater_british_raj_decision_desc: "The time has come for us to claim our Indian jewel"
+  form_greater_british_raj_decision_tooltip: "Consolidate the Indian Empires into the Greater British Raj"
+  form_greater_british_raj_decision_effect_tooltip: "All Indian Empires assimilate under Greater British Raj and you gain the Greater British Raj Empire title"
+  form_greater_british_raj_decision_confirm: "The Land is mine!"
