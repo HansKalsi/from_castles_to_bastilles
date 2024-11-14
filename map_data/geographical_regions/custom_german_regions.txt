@@ -46,45 +46,5 @@ german_unified_lands = {
 		d_salzburg
 		d_steyermark
 		d_tyrol
-
-		#croatia
-		d_croatia
-		d_dalmatia
-		d_slavonia
-		d_ragusa
-
-		#bohemia
-		d_bohemia
-		d_moravia
-
-		#prussia
-		d_wielkopolska
-		d_kuyavia
-		d_lower_silesia
-		d_mazovia
-		d_pommerania
-		d_upper_silesia
-		d_masuria
-		d_pomerelia
-		d_prussia
-
-		#Galicia-Volhynia
-		d_halych
-		d_lesser_poland
-		d_volhynia
-		d_cherven_cities
-
-		#hungary
-		d_bacs
-		d_gyor
-		d_nyitra
-		d_somogy
-		d_syrmia
-		d_temes
-		d_transcarpathia
-		d_ungvar
-		d_visegrad
-		d_bihar
-		d_transylvania
 	}
 }
