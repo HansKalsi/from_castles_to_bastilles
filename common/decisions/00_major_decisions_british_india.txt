@@ -101,5 +101,4 @@ form_british_raj_decision = {
 	ai_will_do = {
 		base = 100
 	}
-	
 }
