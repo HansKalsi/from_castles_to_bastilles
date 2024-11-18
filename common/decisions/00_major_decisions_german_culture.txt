@@ -49,7 +49,7 @@ form_german_culture_decision = {
 		}
 
 		hidden_effect = {
-			root.culture = {
+			culture:unified_german = {
 				get_all_innovations_from = root.culture
 			}
 		}
