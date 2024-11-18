@@ -31,7 +31,6 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
-			has_title = title:e_british_raj
 			completely_controls_region = custom_british_raj
 	}
 
@@ -86,6 +85,7 @@ form_greater_british_raj_decision = {
 		is_ruler = yes
 		is_playable_character = yes
 		highest_held_title_tier > 3
+		has_title = title:e_british_raj
 
 		root = {
 			OR = {
@@ -105,7 +105,7 @@ form_greater_british_raj_decision = {
 			completely_controls_region = world_india_deccan
 			completely_controls_region = world_india_bengal
 			completely_controls_region = world_india_rajastan
-			# completely_controls_region = custom_lanka
+			has_title = title:e_british_raj
 		}
 	}
 
