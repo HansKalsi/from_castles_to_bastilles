@@ -112,3 +112,10 @@
   form_british_raj_decision_effect_tooltip: "All Indian Empires assimilate under British Raj and you gain the British Raj Empire title"
   form_british_raj_decision_confirm: "The Jewel is mine!"
   e_british_raj: "British Raj"
+
+  protestant_reformation_decision: "Protestant Reformation"
+  protestant_reformation_decision_desc: "It is time to break free from the Papacy and become a Protestant"
+  protestant_reformation_decision_tooltip: "Convert faiths of all under my command to the Protestant religion"
+  protestant_reformation_decision_effect_tooltip: "All Counties will convert to the new Protestant religion"
+  protestant_reformation_decision_confirm: "Convert to Protestantism"
+  
