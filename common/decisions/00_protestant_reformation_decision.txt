@@ -1,0 +1,60 @@
+protestant_reformation_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	desc = protestant_reformation_decision_desc
+	selection_tooltip = protestant_reformation_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		root = {
+			OR = {
+				culture = culture:saxon
+				culture = culture:bavarian
+				culture = culture:franconian
+				culture = culture:swabian
+				culture = culture:polabian
+			}
+		}
+
+		exists = faith.religious_head
+	}
+	
+	is_valid = {
+		faith.religious_head = {
+			opinion = {
+				target = root
+				value < -100
+			}
+		}
+
+		capital_province = {
+			development_level => 35
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		every_held_title = {
+			set_county_faith = faith:lollard
+		}
+		set_character_faith_with_conversion = faith:lollard
+
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
