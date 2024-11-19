@@ -19,7 +19,7 @@ protestant_reformation_decision = {
 			}
 		}
 
-		exists = faith.religious_head
+		# exists = faith.religious_head
 	}
 	
 	is_valid = {
@@ -30,7 +30,7 @@ protestant_reformation_decision = {
 			}
 		}
 
-		capital_province = {
+		capital_county = {
 			development_level => 35
 		}
 	}
