@@ -1,6 +1,6 @@
 form_british_raj_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+		reference = "gfx/interface/illustrations/decisions/mainland_british_raj.dds"
 	}
 	desc = form_british_raj_decision_desc
 	selection_tooltip = form_british_raj_decision_tooltip
@@ -31,12 +31,7 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
-		AND = {
-			completely_controls_region = world_india_deccan
-			completely_controls_region = world_india_bengal
-			completely_controls_region = world_india_rajastan
-			# completely_controls_region = custom_lanka
-		}
+			completely_controls_region = mainland_british_raj
 	}
 
 	is_valid_showing_failures_only = {
@@ -49,6 +44,81 @@ form_british_raj_decision = {
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		custom_tooltip = form_british_raj_decision_effect_tooltip
+		
+		hidden_effect = {
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			
+			title:e_british_raj = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+form_greater_british_raj_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/greater_british_raj.dds"
+	}
+	desc = form_greater_british_raj_decision_desc
+	selection_tooltip = form_greater_british_raj_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		highest_held_title_tier > 3
+		has_title = title:e_british_raj
+
+		root = {
+			OR = {
+				culture = culture:irish
+				culture = culture:scottish
+				culture = culture:gaelic
+				culture = culture:english
+				culture = culture:anglo_saxon
+				culture = culture:welsh
+				culture = culture:cornish
+			}
+		}
+	}
+
+	is_valid = {
+		AND = {
+			completely_controls_region = world_india_deccan
+			completely_controls_region = world_india_bengal
+			completely_controls_region = world_india_rajastan
+			has_title = title:e_british_raj
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		custom_tooltip = form_greater_british_raj_decision_effect_tooltip
 		
 		hidden_effect = {
 			title:e_deccan = {
@@ -101,5 +171,4 @@ form_british_raj_decision = {
 	ai_will_do = {
 		base = 100
 	}
-	
 }
