@@ -31,7 +31,7 @@ protestant_reformation_decision = {
 		}
 
 		capital_county = {
-			development_level => 35
+			development_level > 35
 		}
 	}
 
@@ -43,10 +43,21 @@ protestant_reformation_decision = {
 	}
 
 	effect = {
-		every_held_title = {
-			set_county_faith = faith:lollard
+		# every_held_title = {
+		# 	set_county_faith = faith:orthodox
+		# }
+		every_vassal = {
+			if = {
+				limit = { 
+					opinion = {
+						target = root
+						value > 0
+					}
+				}
+				set_character_faith_with_conversion = faith:orthodox
+			}
 		}
-		set_character_faith_with_conversion = faith:lollard
+		# set_character_faith_with_conversion = faith:orthodox
 
 	}
 
