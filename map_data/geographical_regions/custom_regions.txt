@@ -1,9 +1,5 @@
-custom_british_raj = {
+mainland_british_raj = {
 	duchies = {
-		#Lanka
-		d_ruhunu 
-		d_dakhina_desa
-		d_sinhala
 		#Tamilakam
 		d_chera_nadu 
 		d_pandya_nadu 
@@ -15,7 +11,7 @@ custom_british_raj = {
 		d_raichur_doab 
 		d_kalyani
 		#Andhara
-		d_pakanadu 
+		d_udayagiri 
 		d_vengi
 		#Telingana
 		d_racakonda 
@@ -31,5 +27,40 @@ custom_british_raj = {
 		d_kalinga 
 		d_tosali 
 		d_daksina_kosala
+		#Gujarat
+		d_lata
+		d_gurjara_mandala
+		d_saurashtra
+		d_anartta
+		#Malwa
+		d_anupa
+		d_dadhipadra
+		d_akara_dasarna
+		#Rajputana
+		d_stravani
+		d_maru
+		d_medapata
+		d_jangladesh
+		# Misc
+		d_ajmer
+		d_kuru
+		d_haritanaka
+		d_mathura
+		d_vodamayutja
+		d_kanyakubja
+		d_saryupara
+		d_jejakabhukti
+		d_dahala
+		d_ratanpur
+		d_kasi
+		d_jharkand
+		d_magadha
+		d_tirabhukti
+		# Bengal
+		d_gauda
+		d_vanga
+		d_suhma
+		d_nadia
+		d_varendra
 	}
 }

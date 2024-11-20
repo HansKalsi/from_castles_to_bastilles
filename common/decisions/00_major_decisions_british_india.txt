@@ -1,6 +1,6 @@
 form_british_raj_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+		reference = "gfx/interface/illustrations/decisions/mainland_british_raj.dds"
 	}
 	desc = form_british_raj_decision_desc
 	selection_tooltip = form_british_raj_decision_tooltip
@@ -31,7 +31,7 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
-			completely_controls_region = custom_british_raj
+			completely_controls_region = mainland_british_raj
 	}
 
 	is_valid_showing_failures_only = {
@@ -73,7 +73,7 @@ form_british_raj_decision = {
 
 form_greater_british_raj_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+		reference = "gfx/interface/illustrations/decisions/greater_british_raj.dds"
 	}
 	desc = form_greater_british_raj_decision_desc
 	selection_tooltip = form_greater_british_raj_decision_tooltip
@@ -118,7 +118,7 @@ form_greater_british_raj_decision = {
 
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
-		custom_tooltip = form_british_raj_decision_effect_tooltip
+		custom_tooltip = form_greater_british_raj_decision_effect_tooltip
 		
 		hidden_effect = {
 			title:e_deccan = {
