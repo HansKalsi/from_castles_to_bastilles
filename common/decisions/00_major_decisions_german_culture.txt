@@ -42,10 +42,26 @@ form_german_culture_decision = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		custom_tooltip = form_german_culture_decision_effect_tooltip
 	
+		culture = culture:unified_german
+
 		convert_family_culture_and_notify_vassals_effect = {
 			CONVERTER = root
 			OLD_CULTURE = root.culture
 			NEW_CULTURE = culture:unified_german	
+		}
+
+		# Convert every vassal and their capital to German
+		every_vassal = {
+			# Only apply to ai
+			limit = {
+				is_ai = yes
+			}
+			
+			set_culture = culture:unified_german
+
+			capital_county = {
+			set_county_culture = culture:unified_german
+			}
 		}
 
 		hidden_effect = {
