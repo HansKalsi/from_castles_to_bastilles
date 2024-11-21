@@ -1,20 +1,3 @@
-world_india_rajastan_test = {
-	duchies = {
-		#Delhi
-		d_kuru d_haritanaka d_mathura d_vodamayutja
-		#Gujarat
-		d_gurjara_mandala d_anartta d_saurashtra d_lata
-		#Rajputana
-		d_maru d_jangladesh d_stravani d_medapata d_ajmer
-		#Malwa
-		d_dadhipadra d_akara_dasarna d_anupa
-		#Kosala
-		d_kanyakubja d_saryupara d_jejakabhukti
-		#Himalaya
-		d_kurmanchal d_khasa d_nepal d_limbuwan
-	}
-}
-
 german_unified_lands = {
 	duchies = {
 		#germany
