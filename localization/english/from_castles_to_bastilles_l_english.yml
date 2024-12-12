@@ -113,6 +113,16 @@
   form_british_raj_decision_confirm: "The Jewel is mine!"
   e_british_raj: "British Raj"
 
+  #German Culture Decision
+  form_german_culture_decision: "Form Unified German Culture"
+  form_german_culture_decision_desc: "The time has come for us to assimilate our cultures into one"
+  form_german_culture_decision_tooltip: "Assimilate all Germanic people into one German culture"
+  form_german_culture_decision_effect_tooltip: "All Germanic people assimilate into one Unified German Culture"
+  form_german_culture_decision_confirm: "We are One!"
+  unified_german: "German"
+  german_unified_lands: "Unified German Land"
+
+  #Protestant Reformation
   protestant_reformation_decision: "Protestant Reformation"
   protestant_reformation_decision_desc: "It is time to break free from the Papacy and become a Protestant"
   protestant_reformation_decision_tooltip: "Convert faiths of all under my command to the Protestant religion"
