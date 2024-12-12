@@ -31,3 +31,37 @@ german_unified_lands = {
 		d_tyrol
 	}
 }
+
+german_unified_lands = {
+	duchies = {
+		#germany
+		d_angria
+		d_bavaria
+		d_east_franconia
+		d_holstein
+		d_lausitz
+		d_meissen
+		d_nordgau
+		d_ostmark
+		d_ostfalen
+		d_thuringia
+		d_nordmark
+		d_west_franconia
+		d_westfalen
+		d_alsace
+		d_anhalt
+		d_augsburg
+		d_currezia
+		d_hesse
+		d_lower_lorraine
+		d_swabia
+		
+		#bavaria
+		d_osterreich
+		d_carinthia
+		d_krain
+		d_salzburg
+		d_steyermark
+		d_tyrol
+	}
+}
