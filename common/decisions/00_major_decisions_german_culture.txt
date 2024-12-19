@@ -1,0 +1,60 @@
+form_german_culture_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/unified_german_culture_formation.dds"
+	}
+	desc = form_german_culture_decision_desc
+	selection_tooltip = form_german_culture_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+
+		root = {
+			OR = {
+				culture = culture:bavarian
+				culture = culture:dutch
+				culture = culture:franconian
+				culture = culture:frisian
+				culture = culture:german
+				culture = culture:langobard
+				culture = culture:saxon
+				culture = culture:swabian
+				culture = culture:prussian
+			}
+		}
+	}
+
+	is_valid = {
+		highest_held_title_tier > 4
+		completely_controls_region = german_unified_lands
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
+		custom_tooltip = form_german_culture_decision_effect_tooltip
+		# Transfer innovations to the new culture
+		culture:unified_german = {
+			get_all_innovations_from = root.culture
+		}
+		# Trigger event that does the rest of the conversion stuff
+		trigger_event = german_culture_events.0001
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
