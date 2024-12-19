@@ -11,7 +11,6 @@ form_german_culture_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_playable_character = yes
-		highest_held_title_tier > 3
 
 		root = {
 			OR = {
@@ -23,12 +22,14 @@ form_german_culture_decision = {
 				culture = culture:langobard
 				culture = culture:saxon
 				culture = culture:swabian
+				culture = culture:prussian
 			}
 		}
 	}
 
 	is_valid = {
-			completely_controls_region = german_unified_lands
+		highest_held_title_tier > 4
+		completely_controls_region = german_unified_lands
 	}
 
 	is_valid_showing_failures_only = {
@@ -41,34 +42,12 @@ form_german_culture_decision = {
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		custom_tooltip = form_german_culture_decision_effect_tooltip
-	
-		culture = culture:unified_german
-
-		convert_family_culture_and_notify_vassals_effect = {
-			CONVERTER = root
-			OLD_CULTURE = root.culture
-			NEW_CULTURE = culture:unified_german	
+		# Transfer innovations to the new culture
+		culture:unified_german = {
+			get_all_innovations_from = root.culture
 		}
-
-		# Convert every vassal and their capital to German
-		every_vassal = {
-			# Only apply to ai
-			limit = {
-				is_ai = yes
-			}
-			
-			set_culture = culture:unified_german
-
-			capital_county = {
-			set_county_culture = culture:unified_german
-			}
-		}
-
-		hidden_effect = {
-			culture:unified_german = {
-				get_all_innovations_from = root.culture
-			}
-		}
+		# Trigger event that does the rest of the conversion stuff
+		trigger_event = german_culture_events.0001
 	}
 
 	ai_potential = {

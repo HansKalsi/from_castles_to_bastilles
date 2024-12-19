@@ -1,6 +1,6 @@
 ﻿l_english:
- # The Renaissance
-  culture_era_the_renaissance:0 "The Renaissance"
+ # Renaissance
+  culture_era_the_renaissance:0 "Renaissance"
   culture_era_the_renaissance_desc:0 "The Renaissance was a period of great cultural change and achievement that began in Italy during the 14th century and spread throughout Europe. It was a time of rebirth, when the arts, sciences, and philosophy flourished. The Renaissance was also a time of great political and social change, as the power of the Catholic Church declined and the power of the monarchs and nobles increased. The Renaissance was a time of great creativity and innovation, and it laid the foundation for the modern world."
 
   # Military Innovations
@@ -29,8 +29,8 @@
   winged_hussars:0 "Winged Hussars"
   winged_hussars_flavor:0 "The Winged Hussars were a type of cavalry unit that was used by the Polish-Lithuanian Commonwealth during the Renaissance. They were known for their distinctive armor, which included large wings that were attached to their backs. The Winged Hussars were highly skilled horsemen and warriors, and they were feared and respected by their enemies."
 
-  # Revolutionary Era
-  culture_era_revolutionary_era:0 "Revolutionary Era"
+  # Revolutionary
+  culture_era_revolutionary_era:0 "Revolutionary"
   culture_era_revolutionary_era_desc:0 "The Revolutionary Era was a period of great political and social change that began in the late 18th century and continued into the early 19th century. It was a time of revolution, when the people of Europe rose up against their rulers and demanded greater political and social rights. The Revolutionary Era was a time of great upheaval and conflict, as the old order was overthrown and a new order was established. The Revolutionary Era was a time of great change and transformation, and it laid the foundation for the modern world."
 
   # Military Innovations
@@ -124,7 +124,7 @@
   form_german_culture_decision: "Form Unified German Culture"
   form_german_culture_decision_desc: "The time has come for us to assimilate our cultures into one"
   form_german_culture_decision_tooltip: "Assimilate all Germanic people into one German culture"
-  form_german_culture_decision_effect_tooltip: "All Germanic people assimilate into one Unified German Culture"
+  form_german_culture_decision_effect_tooltip: "All Germanic people assimilate into one unified German culture and all innovations are transferred to the unified German culture"
   form_german_culture_decision_confirm: "We are One!"
   unified_german: "German"
   german_unified_lands: "Unified German Land"
