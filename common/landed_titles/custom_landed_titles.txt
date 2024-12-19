@@ -16,9 +16,3 @@ e_british_raj = {
 	capital = c_delhi
 	definite_form = yes
 }
-
-e_greater_british_raj = {
-	color = { 245 15 35 }
-	capital = c_delhi
-	definite_form = yes
-}

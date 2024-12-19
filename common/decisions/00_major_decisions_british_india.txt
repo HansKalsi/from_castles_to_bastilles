@@ -31,7 +31,7 @@ form_british_raj_decision = {
 	}
 
 	is_valid = {
-			completely_controls_region = mainland_british_raj
+		completely_controls_region = mainland_british_raj
 	}
 
 	is_valid_showing_failures_only = {
@@ -98,6 +98,10 @@ form_greater_british_raj_decision = {
 				culture = culture:cornish
 			}
 		}
+
+		NOT = {
+			exists = global_var:greater_british_raj_formed
+		}
 	}
 
 	is_valid = {
@@ -161,6 +165,11 @@ form_greater_british_raj_decision = {
 			destroy_title = title:e_deccan
 			destroy_title = title:e_bengal
 			destroy_title = title:e_rajastan
+		}
+
+		set_global_variable = {
+			name = greater_british_raj_formed
+			value = 1
 		}
 	}
 
