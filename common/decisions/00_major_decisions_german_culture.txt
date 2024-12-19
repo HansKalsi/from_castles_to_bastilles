@@ -1,6 +1,6 @@
 form_german_culture_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+		reference = "gfx/interface/illustrations/decisions/unified_german_culture_formation.dds"
 	}
 	desc = form_german_culture_decision_desc
 	selection_tooltip = form_german_culture_decision_tooltip
