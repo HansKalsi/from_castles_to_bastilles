@@ -17,3 +17,8 @@ house_hohenzollern = {
     name = dynn_Hohenzollern
     dynasty = 4100000
 }
+
+house_pope = {
+    name = dynn_Pope
+    dynasty = 6166666
+}

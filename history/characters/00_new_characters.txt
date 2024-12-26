@@ -37,3 +37,13 @@
         birth = "1738.6.4"
     }
 }
+
+6666666 = {
+	name = "Pius" #Pius VI
+    dynasty = 6166666
+	religion = "catholic"
+	culture = italian
+	1717.12.25 = {
+		birth = "1717.12.25"
+	}
+}

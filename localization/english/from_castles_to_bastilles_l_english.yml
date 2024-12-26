@@ -120,7 +120,7 @@
   form_greater_british_raj_decision_effect_tooltip: "All Indian Empires assimilate into the British Raj, solidifying your rule over the Indian subcontinent"
   form_greater_british_raj_decision_confirm: "These are my people!"
 
-  #German Culture Decision
+  # German Culture Decision
   form_german_culture_decision: "Form Unified German Culture"
   form_german_culture_decision_desc: "The time has come for us to assimilate our cultures into one"
   form_german_culture_decision_tooltip: "Assimilate all Germanic people into one German culture"
@@ -128,3 +128,15 @@
   form_german_culture_decision_confirm: "We are One!"
   unified_german: "German"
   german_unified_lands: "Unified German Land"
+
+  # Protestant Reformation Decision
+  protestant_reformation_decision: "Protestant Reformation"
+  protestant_reformation_decision_desc: "It is time to break free from the Papacy and become a Protestant"
+  protestant_reformation_decision_tooltip: "Convert faiths of all under my command to the Protestant religion"
+  protestant_reformation_decision_effect_tooltip: "All Counties will convert to the new Protestant religion"
+  protestant_reformation_decision_confirm: "Convert to Protestantism"
+
+  central_germanic_lands: "Central Germanic Lands"
+
+  protestant: "Protestantism"
+  protestant_adj: "Protestant"
