@@ -37,3 +37,8 @@
     name = "dynn_Ypsilantis"
     culture = greek
 }
+
+6166666 = {
+    name = "dynn_Pope"
+    culture = italian
+}
