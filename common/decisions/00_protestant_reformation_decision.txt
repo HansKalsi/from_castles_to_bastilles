@@ -1,6 +1,6 @@
 protestant_reformation_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+		reference = "gfx/interface/illustrations/decisions/protestantism_formation.dds"
 	}
 	desc = protestant_reformation_decision_desc
 	selection_tooltip = protestant_reformation_decision_tooltip
@@ -20,6 +20,9 @@ protestant_reformation_decision = {
 				culture = culture:german
 				culture = culture:unified_german
 			}
+		}
+		NOT = {
+			faith = faith:protestant
 		}
 	}
 	
