@@ -1,5 +1,10 @@
 # Still HRE at this point in time
 e_hre = {
+	1612.1.1 = {
+		effect = {
+			set_capital_county = title:c_vienna
+		}
+	}
     1799.1.1 = {
         holder = 5000000
     }

@@ -24,6 +24,7 @@ protestant_reformation_decision = {
 		NOT = {
 			faith = faith:protestant
 		}
+		current_year >= 1600
 	}
 	
 	is_valid = {
@@ -53,15 +54,17 @@ protestant_reformation_decision = {
 	}
 
 	effect = {
-		every_vassal = {
-			if = {
-				limit = { 
-					opinion = {
-						target = root
-						value > 0
+		hidden_effect = {
+			every_vassal = {
+				if = {
+					limit = { 
+						opinion = {
+							target = root
+							value > 0
+						}
 					}
+					set_character_faith_with_conversion = faith:protestant
 				}
-				set_character_faith_with_conversion = faith:protestant
 			}
 		}
 		set_character_faith_with_conversion = faith:protestant

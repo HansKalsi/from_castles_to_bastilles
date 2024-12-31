@@ -3,7 +3,7 @@
   culture_era_the_renaissance:0 "Renaissance"
   culture_era_the_renaissance_desc:0 "The Renaissance was a period of great cultural change and achievement that began in Italy during the 14th century and spread throughout Europe. It was a time of rebirth, when the arts, sciences, and philosophy flourished. The Renaissance was also a time of great political and social change, as the power of the Catholic Church declined and the power of the monarchs and nobles increased. The Renaissance was a time of great creativity and innovation, and it laid the foundation for the modern world."
 
-  # Military Innovations
+ # Military Innovations
   innovation_matchlock_muskets:0 "Matchlock Muskets"
   innovation_matchlock_muskets_desc:0 "Matchlock muskets were the first firearms to be widely used in Europe. They were simple to operate and could be fired by a single soldier, making them ideal for use in massed formations. Matchlock muskets were slow to reload, but they were powerful and accurate weapons that could be used to devastating effect on the battlefield."
   arquebusiers:0 "Arquebusiers"
@@ -13,7 +13,7 @@
   hussars:0 "Hussars"
   hussars_flavor:0 "Hussars were a type of cavalry unit that was used by European armies during the Renaissance. They were highly skilled horsemen and warriors, and they were known for their speed, agility, and ferocity in battle. Hussars played a key role in many of the great military campaigns of the time, and they were feared and respected by their enemies."
 
-  # Civic Innovations
+ # Civic Innovations
   innovation_horizontal_waterwheel:0 "Horizontal Waterwheel"
   innovation_horizontal_waterwheel_desc:0 "The horizontal waterwheel was a type of waterwheel that was used to power machinery in Europe during the Renaissance. It was a simple and efficient device that could be used to grind grain, saw wood, and perform other tasks. The horizontal waterwheel was an important innovation that helped to increase the productivity of European industry and agriculture."
   innovation_printing_press:0 "Printing Press"
@@ -23,17 +23,17 @@
   innovation_ancient_art:0 "Ancient Art"
   innovation_ancient_art_desc:0 "The art of the ancient world was a key source of inspiration for the artists and architects of the Renaissance. They studied the works of the Greeks and Romans, and they sought to emulate their style and techniques. The art of the ancient world was characterized by its realism, its attention to detail, and its focus on the human form. The artists of the Renaissance sought to capture these qualities in their own work, and they created some of the greatest masterpieces of Western art."
 
-  # Regional Innovations
+ # Regional Innovations
   innovation_winged_hussars:0 "Winged Hussars"
   innovation_winged_hussars_desc:0 "The Winged Hussars were a type of cavalry unit that was used by the Polish-Lithuanian Commonwealth during the Renaissance. They were known for their distinctive armor, which included large wings that were attached to their backs. The Winged Hussars were highly skilled horsemen and warriors, and they were feared and respected by their enemies. They played a key role in many of the great military campaigns of the Renaissance, and they were instrumental in the defense of Poland-Lithuania against the Ottoman Empire."
   winged_hussars:0 "Winged Hussars"
   winged_hussars_flavor:0 "The Winged Hussars were a type of cavalry unit that was used by the Polish-Lithuanian Commonwealth during the Renaissance. They were known for their distinctive armor, which included large wings that were attached to their backs. The Winged Hussars were highly skilled horsemen and warriors, and they were feared and respected by their enemies."
 
-  # Revolutionary
+ # Revolutionary
   culture_era_revolutionary_era:0 "Revolutionary"
   culture_era_revolutionary_era_desc:0 "The Revolutionary Era was a period of great political and social change that began in the late 18th century and continued into the early 19th century. It was a time of revolution, when the people of Europe rose up against their rulers and demanded greater political and social rights. The Revolutionary Era was a time of great upheaval and conflict, as the old order was overthrown and a new order was established. The Revolutionary Era was a time of great change and transformation, and it laid the foundation for the modern world."
 
-  # Military Innovations
+ # Military Innovations
   innovation_flintlock_muskets:0 "Flintlock Muskets"
   innovation_flintlock_muskets_desc:0 "Flintlock muskets were an improved version of the matchlock muskets that were used in Europe during the Renaissance. They were faster to reload and more reliable than matchlock muskets, making them more effective weapons on the battlefield. Flintlock muskets were widely used by European armies during the Revolutionary Era, and they played a key role in many of the great military campaigns of the time."
   musketeers:0 "Musketeers"
@@ -47,7 +47,7 @@
   howitzer:0 "Howitzers"
   howitzer_flavor:0 "Howitzers were a type of artillery piece that was used by European armies during the Revolutionary Era. They were short-barreled cannons that fired shells in a high arc, making them ideal for attacking fortifications and other targets that were hidden from view. Howitzers were highly effective weapons, and they played a key role in many of the great military campaigns of the time."
 
-  # Civic Innovations
+ # Civic Innovations
   innovation_world_order:0 "World Order"
   innovation_world_order_desc:0 "The World Order was a series of reforms and innovations that were introduced by Napoleon Bonaparte during his rule of France in the early 19th century. It included changes to the organization and tactics of the French army, as well as the introduction of new weapons and equipment. The World Order made the French army one of the most powerful and effective military forces in Europe, and it played a key role in Napoleon's rise to power and his conquest of much of Europe."
   innovation_the_guillotine:0 "The Guillotine"
@@ -55,7 +55,7 @@
   innovation_line_infantry:0 "Line Infantry"
   innovation_line_infantry_desc:0 "Line infantry were a type of infantry unit that was used by European armies during the Revolutionary Era. They were armed with muskets and bayonets, and they fought in close formation in long lines. Line infantry were highly disciplined and effective soldiers, and they played a key role in many of the great military campaigns of the time."
 
-  # Regional Innovations
+ # Regional Innovations
   innovation_new_model_army:0 "New Model Army"
   innovation_new_model_army_desc:0 "The New Model Army was a type of army that was used by the Parliamentarians during the English Civil War in the mid-17th century. It was a professional and well-trained force that was organized and equipped according to modern military principles. The New Model Army was highly effective in battle, and it played a key role in the victory of the Parliamentarians over the Royalists."
   red_coats:0 "Red Coats"
@@ -73,16 +73,16 @@
   cossacks:0 "Cossacks"
   cossacks_flavor:0 "Cossacks were a type of cavalry unit that was used by European armies during the Revolutionary Era. They were highly skilled horsemen and warriors, and they were known for their speed, agility, and ferocity in battle. Cossacks played a key role in many of the great military campaigns of the time, and they were feared and respected by their enemies."
 
-  # Empire Casus Belli
+ # Empire Casus Belli
   revolutionary_empire_invasion:0 "Spread Revolutionary Ideals"
   REVOLUTIONARY_INVASION_CB_NAME:1 "Spread Ideals to [empire|E]"
   REVOLUTIONARY_INVASION_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Spread of Ideals to [TITLE.GetBaseName]"
   REVOLUTIONARY_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 
-  # Dynasties
+ # Dynasties
   dynn_Bonaparte:0 "Bonaparte"
 
-  # Titles
+ # Titles
   PRUSSIA:0 "Prussia"
   GREAT_BRITAIN:0 "Great Britain"
   NAPOLEANIC_FRANCE:0 "Napoleonic France"
@@ -90,7 +90,7 @@
   ROMANIA:0 "Romania"
   SICILY:0 "Sicily"
 
-  # Bookmark
+ # Bookmark
   bm_group_1799:0 "1799" 
   bm_1799_start:0 "The Revolutionary Era"
   bm_1799_start_desc:0 "The Revolutionary Era was a period of great political and social change that began in the late 18th century and continued into the early 19th century. It was a time of revolution, when the people of Europe rose up against their rulers and demanded greater political and social rights. The Revolutionary Era was a time of great upheaval and conflict, as the old order was overthrown and a new order was established. The Revolutionary Era was a time of great change and transformation, and it laid the foundation for the modern world."
@@ -105,7 +105,7 @@
   bookmark_1799_friedrich_wilhelm_hohenzollern:0 "Friedrich Wilhelm Hohenzollern"
   bookmark_1799_friedrich_wilhelm_hohenzollern_desc:0 "Friedrich Wilhelm Hohenzollern was the King of Prussia from 1797 to 1840. He was a member of the House of Hohenzollern, and he was a conservative ruler who sought to maintain the power and influence of the Prussian Empire in Europe. Friedrich Wilhelm was a staunch opponent of the French Revolution and its associated wars, and he led Prussia in a series of conflicts against Napoleon Bonaparte and his allies. Friedrich Wilhelm was ultimately defeated by Napoleon at the Battle of Jena-Auerstedt in 1806, and he was forced to abdicate the throne in 1807."
 
-  # Decisions
+ # British Raj Decisions
   form_british_raj_decision: "Form British Raj"
   form_british_raj_decision_desc: "The time has come for us to claim our Indian jewel"
   form_british_raj_decision_tooltip: "Consolidate the Mainland Indian Kingdoms into the British Raj"
@@ -120,7 +120,7 @@
   form_greater_british_raj_decision_effect_tooltip: "All Indian Empires assimilate into the British Raj, solidifying your rule over the Indian subcontinent"
   form_greater_british_raj_decision_confirm: "These are my people!"
 
-  # German Culture Decision
+ # German Culture Decision
   form_german_culture_decision: "Form Unified German Culture"
   form_german_culture_decision_desc: "The time has come for us to assimilate our cultures into one"
   form_german_culture_decision_tooltip: "Assimilate all Germanic people into one German culture"
@@ -129,7 +129,7 @@
   unified_german: "German"
   german_unified_lands: "Unified German Land"
 
-  # Protestant Reformation Decision
+ # Protestant Reformation Decision
   protestant_reformation_decision: "Protestant Reformation"
   protestant_reformation_decision_desc: "It is time to break free from the Papacy and become a Protestant"
   protestant_reformation_decision_tooltip: "Convert faiths of all under my command to the Protestant religion"
@@ -138,5 +138,9 @@
 
   central_germanic_lands: "Central Germanic Lands"
 
+ # Protestant Religion
   protestant: "Protestantism"
   protestant_adj: "Protestant"
+  protestant_adherent: "Protestant"
+  protestant_adherent_plural: "Protestants"
+  protestant_desc: "Protestantism is a branch of Christianity that originated with the Reformation, a movement against what its followers perceived to be errors in the Roman Catholic Church. Protestantism is characterized by its emphasis on the Bible as the sole source of authority for faith and practice, its rejection of the authority of the Pope, and its emphasis on the priesthood of all believers. Protestantism encompasses a wide range of denominations, including Lutheranism, Calvinism, Anglicanism, and many others."
